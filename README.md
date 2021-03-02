@@ -1,2 +1,4 @@
 # translation_parsers
-some parser for translations
+parser for translations:
+from properties to dialog
+from translations to dialog

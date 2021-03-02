@@ -1,0 +1,11 @@
+actions:
+  commit:
+    class: be.proximus.website.performance.SaveDialogActionDefinition
+  cancel:
+    class: be.proximus.website.performance.CancelDialogActionDefinition
+form:
+  label:
+  tabs:
+    - name:
+      label:
+      fields:

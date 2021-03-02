@@ -1,0 +1,2 @@
+language = "python3"
+run = "echo cd a folder and run python main.py"
