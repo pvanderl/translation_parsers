@@ -1,0 +1,91 @@
+Name;editable in magnolia;Value
+;;
+manageSplitBill.step1.selectChoiceTitle;No;Please select split bill type
+manageSplitBill.step1.currentSplitBillTypeTitle;No;Current split billing type
+manageSplitBill.step1.selectInvoiceAccount.title;No;Please select an invoice account
+manageSplitBill.step1.selectInvoiceAccount.descr;No;This account will be used for split billing.
+manageSplitBill.step1.selectInvoiceAccount.table.column.1;No;Account name
+manageSplitBill.step1.selectInvoiceAccount.table.column.2;No;Account number
+manageSplitBill.step1.selectInvoiceAccount.table.selectARow;No;Select a row
+manageSplitBill.step1.titleDownloadUpload;No;Please add an adhesion form
+manageSplitBill.step1.subtitleDownloadUpload;Yes;You can also do this after this request, if you don t have the form yet you can do it later by opening your ticket and attaching the document to the ticket
+manageSplitBill.step1.descriptionDownloadUpload;Yes;To this Budget Manager profile, you will need the adhesion form filled & signed by your employee. If you don t have this document already please dowload it below. You can reopen your ticket and upload this document afterwards.
+manageSplitBill.step1.downloadForm;No;Download form
+manageSplitBill.step1.uploadForm;No;Upload form
+manageSplitBill.step1.uploadLabel;No;Select your .pdf file
+manageSplitBill.step1.uploadFileSize;No;2000000
+manageSplitBill.step1.downloadFormFileName;No;Form.pdf
+manageSplitBill.step1.errorSizeFile;No;File size exceed limit
+manageSplitBill.step1.errorTypeFile;No;Wrong type of file
+manageSplitBill.step1.explanationBox.title;Yes;Explanation of the different actions for split billing
+manageSplitBill.step1.explanationBox.description;Yes;<ul><li>Activation of split billing - We will activate the requested split billing profile. The mobile number will be invoiced according to the conditions of that profile.</li><li>Deactivation of split billing - We will no longer bill this mobile number through split billing. The full amount will be invoiced on a specified invoice account.</li><li>Modification of an existing split billing profile - Invoicing will happen according to the conditions of the newly selected profile.</li></ul>
+manageSplitBill.step1.explanationBox.close;No;Close
+;;
+manageSplitBill.step2.invoiceAddress.title;No;Enter invoice address
+manageSplitBill.step2.invoiceAddress.description;No;Please enter the address below
+manageSplitBill.step2.invoiceAddress.country;No;Country
+manageSplitBill.step2.invoiceAddress.postalcode;No;Postal Code
+manageSplitBill.step2.invoiceAddress.streetname;No;Street name
+manageSplitBill.step2.invoiceAddress.city;No;City
+manageSplitBill.step2.invoiceAddress.houseNr;No;House number
+manageSplitBill.step2.invoiceAddress.suffix;No;Suffix (optional)
+manageSplitBill.step2.invoiceAddress.addressExtra;No;Box
+manageSplitBill.step2.selectLanguagePlaceholder;No;Choose a language
+manageSplitBill.step2.selectLanguage.EN;No;English
+manageSplitBill.step2.selectLanguage.FR;No;French
+manageSplitBill.step2.selectLanguage.NL;No;Nederlands
+manageSplitBill.step2.firstname;No;Firstname
+manageSplitBill.step2.lastname;No;Lastname
+manageSplitBill.step2.deliverySection.title;No;Choose one delivery method
+manageSplitBill.step2.deliverySection.subtitle;No;You will receive your invoice to
+manageSplitBill.step2.deliverySection.EmailSms;No;Email/SMS
+manageSplitBill.step2.deliverySection.Zoomit;No;Zoomit
+manageSplitBill.step2.deliverySection.PaperMail;No;Paper mail
+manageSplitBill.step2.deliverySection.form.email;No;Enter email address
+manageSplitBill.step2.deliverySection.form.sms;No;Enter mobile number - Notification SMS that your invoice is ready (optional)
+manageSplitBill.step2.deliverySection.form.zoomit;No;Enter your IBAN bank account number
+manageSplitBill.step2.gdprLegalText;Yes;Warning: Before validation, check the correct spelling of your email address. Data entry errors can cause documents to be sent incorrectly to a third party mailbox. Proximus cannot be held reponsible for an erroneous transmission.
+;;
+manageSplitBill.step3.employeeDetailsTitle;Yes;Please enter employee invoicing details
+manageSplitBill.step3.employeeDetailsSubtitle1;Yes;For a split billing profile, we need to collect the end-users name and private address details to create a Proximus Account Number. This is so we can invoice the subscription and usage fees accordingly.
+manageSplitBill.step3.employeeDetailsSubtitle2;Yes;All fields are mandatory except those where optional is mentioned
+manageSplitBill.step3.title;No;Choose an activation date (optional)
+manageSplitBill.step3.description;Yes;If you do not choose a date now, your change request will be executed by the end of the month.
+;;
+manageSplitBill.step4.fileWarning.title;Yes;Please attach the adhesion form, signed by your employee to the ticket after the submission
+manageSplitBill.step4.fileWarning.subtitle;Yes;"You can find your ticket in the ""History page"", simply click on the ticket number link"
+manageSplitBill.step4.title;No;Summary and confirmation
+manageSplitBill.step4.employeeInvoicingDetails;No;Employee invoicing details
+manageSplitBill.step4.invoiceLanguage;No;Invoice language
+manageSplitBill.step4.invoicingAddress;No;Invoicing address
+manageSplitBill.step4.invoiceDeliveryMethod;No;Invoice delivery method
+manageSplitBill.step4.SplitBillingType;No;Split billing type
+manageSplitBill.step4.currentActiveType;No;Current active type
+manageSplitBill.step4.futureActivatedType;No;Future activated type
+manageSplitBill.step4.futureActivatedProfile;No;Future activated profile
+manageSplitBill.step4.invoicingDetails;No;Invoicing details
+manageSplitBill.step4.invoiceAccountNumber;No;Invoice account number
+manageSplitBill.step4.activationDate;No;Activation date
+manageSplitBill.step4.dateOfActivation;No;Date of activation
+manageSplitBill.step4.uploadedAdhesionForm;No;Uploaded adhesion form
+manageSplitBill.step4.uploadedFile;No;Uploaded file
+manageSplitBill.step4.popup.success.title;Yes;Your request was successful, we will redirect you to the history page
+manageSplitBill.step4.popup.success.content;Yes;"You can find your ticket in the ""History page"", simply click on the ticket number link."
+manageSplitBill.step4..popup.error.title;No;Sorry, your request has failed
+manageSplitBill.step4..popup.error.content;No;Please retry again later.
+manageSplitBill.step4.popup.warningPdf.title;No;PDF could not be attached - Please try again
+manageSplitBill.step4.popup.warningPdf.content;Yes;We could not upload your PDF for some reasons, please try again by opening the Ticket in the History Page. If the issues cannot be resolved, please contact your Customer Service Offer for help.
+;;
+manageSplitBill.title;Yes;Manage Split Bill Profile
+manageSplitBill.learnMore;No;Learn more
+manageSplitBill.progressBar.step1;No;Chose split bill type & select invoice account
+manageSplitBill.progressBar.step2;No;Fill in invoicing details
+manageSplitBill.progressBar.step3;No;Activation date
+manageSplitBill.progressBar.step4;No;Confirm your request
+manageSplitBill.cancel.popupTitle;No;Cancel Popup
+manageSplitBill.cancel.msgContent;No;Are you sure you want to cancel ?
+manageSplitBill.helpSection.title;Yes;Do you need help?
+manageSplitBill.helpSection.description;Yes;You cannot find the type or profile you would like to activate? Click the button below, we will redirect you to support form. There you can describe what you are looking for and we will contact you once your case is being treated.
+manageSplitBill.helpSection.linkTitle;Yes;See contact page
+manageSplitBill.helpSection.link;Yes;#helpSection
+manageSplitBill.fieldRequired;No;This field is required

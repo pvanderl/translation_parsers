@@ -1,0 +1,125 @@
+actions:
+  commit:
+    class: be.proximus.website.performance.SaveDialogActionDefinition
+  cancel:
+    class: be.proximus.website.performance.CancelDialogActionDefinition
+form:
+  label:
+  tabs:
+    - name:
+      label:
+      fields:
+      - name: json.manageSplitBill.step1.subtitleDownloadUpload
+        i18n: true
+        type: String
+        label: subtitleDownloadUpload
+        defaultValue: "You can also do this after this request, if you don t have the form yet you can do it later by opening your ticket and attaching the document to the ticket"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step1.descriptionDownloadUpload
+        i18n: true
+        type: String
+        label: descriptionDownloadUpload
+        defaultValue: "To this Budget Manager profile, you will need the adhesion form filled & signed by your employee. If you don t have this document already please dowload it below. You can reopen your ticket and upload this document afterwards."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step1.explanationBox.title
+        i18n: true
+        type: String
+        label: title
+        defaultValue: "Explanation of the different actions for split billing"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step1.explanationBox.description
+        i18n: true
+        type: String
+        label: description
+        defaultValue: "<ul><li>Activation of split billing - We will activate the requested split billing profile. The mobile number will be invoiced according to the conditions of that profile.</li><li>Deactivation of split billing - We will no longer bill this mobile number through split billing. The full amount will be invoiced on a specified invoice account.</li><li>Modification of an existing split billing profile - Invoicing will happen according to the conditions of the newly selected profile.</li></ul>"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step2.gdprLegalText
+        i18n: true
+        type: String
+        label: gdprLegalText
+        defaultValue: "Warning: Before validation, check the correct spelling of your email address. Data entry errors can cause documents to be sent incorrectly to a third party mailbox. Proximus cannot be held reponsible for an erroneous transmission."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step3.employeeDetailsTitle
+        i18n: true
+        type: String
+        label: employeeDetailsTitle
+        defaultValue: "Please enter employee invoicing details"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step3.employeeDetailsSubtitle1
+        i18n: true
+        type: String
+        label: employeeDetailsSubtitle1
+        defaultValue: "For a split billing profile, we need to collect the end-users name and private address details to create a Proximus Account Number. This is so we can invoice the subscription and usage fees accordingly."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step3.employeeDetailsSubtitle2
+        i18n: true
+        type: String
+        label: employeeDetailsSubtitle2
+        defaultValue: "All fields are mandatory except those where optional is mentioned"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step3.description
+        i18n: true
+        type: String
+        label: description
+        defaultValue: "If you do not choose a date now, your change request will be executed by the end of the month."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step4.fileWarning.title
+        i18n: true
+        type: String
+        label: title
+        defaultValue: "Please attach the adhesion form, signed by your employee to the ticket after the submission"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step4.fileWarning.subtitle
+        i18n: true
+        type: String
+        label: subtitle
+        defaultValue: ""You can find your ticket in the ""History page"", simply click on the ticket number link""
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step4.popup.success.title
+        i18n: true
+        type: String
+        label: title
+        defaultValue: "Your request was successful, we will redirect you to the history page"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step4.popup.success.content
+        i18n: true
+        type: String
+        label: content
+        defaultValue: ""You can find your ticket in the ""History page"", simply click on the ticket number link.""
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.step4.popup.warningPdf.content
+        i18n: true
+        type: String
+        label: content
+        defaultValue: "We could not upload your PDF for some reasons, please try again by opening the Ticket in the History Page. If the issues cannot be resolved, please contact your Customer Service Offer for help."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.title
+        i18n: true
+        type: String
+        label: title
+        defaultValue: "Manage Split Bill Profile"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.helpSection.title
+        i18n: true
+        type: String
+        label: title
+        defaultValue: "Do you need help?"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.helpSection.description
+        i18n: true
+        type: String
+        label: description
+        defaultValue: "You cannot find the type or profile you would like to activate? Click the button below, we will redirect you to support form. There you can describe what you are looking for and we will contact you once your case is being treated."
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.helpSection.linkTitle
+        i18n: true
+        type: String
+        label: linkTitle
+        defaultValue: "See contact page"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+      - name: json.manageSplitBill.helpSection.link
+        i18n: true
+        type: String
+        label: link
+        defaultValue: "#helpSection"
+        class: info.magnolia.ui.form.field.definition.TextFieldDefinition
